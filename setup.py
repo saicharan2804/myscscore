@@ -6,8 +6,6 @@ setup(
     author='SaiC',  # Replace with your name
     author_email='saicharanhahaha@gmail.com',  # Replace with your email address
     description='A package for scoring molecular genetics evaluations',  # Provide a short description
-    long_description=open('README.md').read(),  # This will be the long description from README.md
-    long_description_content_type='text/markdown',  # Specifies that the long description is in Markdown
     url='https://github.com/saicharan2804/myscscore',  # Replace with the URL to your repository
     packages=find_packages(),  # Finds all packages in the directory
     classifiers=[
