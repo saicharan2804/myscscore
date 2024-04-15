@@ -24,7 +24,7 @@ class SCScorer():
         self.score_scale = score_scale
         self._restored = False
 
-    def restore(self, weight_path=os.path.join(project_root, 'model.ckpt-10654.as_numpy.json.gz'), FP_rad=FP_rad, FP_len=FP_len):
+    def restore(self, weight_path=os.path.join(project_root, 'myscscore', 'model.ckpt-10654.as_numpy.json.gz'), FP_rad=FP_rad, FP_len=FP_len):
         print('project_root: ', project_root)
         print('weight_path: ', weight_path)
         self.FP_len = FP_len; self.FP_rad = FP_rad
