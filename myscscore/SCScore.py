@@ -25,8 +25,8 @@ class SCScorer():
         self._restored = False
 
     def restore(self, weight_path=os.path.join(project_root, 'myscscore', 'model.ckpt-10654.as_numpy.json.gz'), FP_rad=FP_rad, FP_len=FP_len):
-        print('project_root: ', project_root)
-        print('weight_path: ', weight_path)
+        # print('project_root: ', project_root)
+        # print('weight_path: ', weight_path)
         self.FP_len = FP_len; self.FP_rad = FP_rad
         self._load_vars(weight_path)
         # print('Restored variables from {}'.format(weight_path))

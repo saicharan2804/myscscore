@@ -14,7 +14,7 @@ ls_train = ls[5000:10000]
 
 
 
-print('computing')
+# print('computing')
 average_score = model.get_avg_score(ls_gen)
 print(average_score)
 
